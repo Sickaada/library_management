@@ -31,10 +31,10 @@ Lacks all the security features.
   id SERIAL,
   username VARCHAR(255),
   namex VARCHAR(255));
-  `````
+  ```
  3. Navigate to library_management/php and create "connection.php".
     In connection.php, include the following code -
-    ```````
+    ```
     <?php 
     // connecting with database
     $db_connection = pg_connect("host=localhost port=5432 dbname=lib_management user= postgres password=");
@@ -45,10 +45,10 @@ Lacks all the security features.
         exit;
     }
     
-    ?>```````
+    ?>
   4. Start your server now-
-    cd into library_management in your terminal
-    run php -S 127.0.0.1:6969
+   cd into library_management in your terminal
+   run ```php -S 127.0.0.1:6969```
    
   5.Go to 127.0.0.1:6969/html/index.html
     
