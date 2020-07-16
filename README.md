@@ -50,7 +50,7 @@ Lacks all the security features.
    cd into library_management in your terminal
    run ```php -S 127.0.0.1:6969```
    
-  5.Go to http://127.0.0.1:6969/html/index.html
+  5.Go to http://127.0.0.1:6969/HTML/index.html
     
   
   
