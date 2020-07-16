@@ -13,7 +13,7 @@ include 'connection.php';
     $password = pg_escape_string($_POST['password']);
     
 
-    endif;
+    
 
     
 
@@ -22,4 +22,5 @@ include 'connection.php';
     $sql = "INSERT INTO adminx(username, passwordx) VALUES ('$username','$password')";
     pg_query($db_connection, $sql);
   
-    header("Location: ../html/admin_register.html");
+    header('Location: ../html/admin_register.html');
+    endif;
