@@ -13,7 +13,7 @@ Lacks all the security features.
   username VARCHAR(255),
   passwordx VARCHAR(255));
   
-  CREATE TABLE adminx(
+  CREATE TABLE users(
   id SERIAL,
   username VARCHAR(255),
   passwordx VARCHAR(255));
