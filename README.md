@@ -4,7 +4,7 @@ Lacks all the security features.
 # STEPS TO USE IT:
 1. Clone this repo in your pc.
 2. You need to create your own database. Run the following code in postgresql environment-
-  '''
+  ```
   CREATE DATABASE lib_management;
   \c lib_management
   
@@ -30,7 +30,7 @@ Lacks all the security features.
   CREATE TABLE requested_books(
   id SERIAL,
   username VARCHAR(255),
-  namex VARCHAR(255));
+  namex VARCHAR(255));```
  3. Navigate to library_management/php and create "connection.php".
     In connection.php, include the following code -
     '''
@@ -44,7 +44,7 @@ Lacks all the security features.
         exit;
     }
     
-    ?>
+    ?>```
   4. Start your server now-
     cd into library_management in your terminal
     run php -S 127.0.0.1:6969
