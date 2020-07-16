@@ -1,6 +1,7 @@
 # library_management
 First Version of Library_Management using PHP and HTML only.
 Lacks all the security features.
+And the following procedures assumes you have done the server setup and are acquainted with Postgresql.
 # STEPS TO USE IT:
 1. Clone this repo in your pc.
 2. You need to create your own database. Run the following code in postgresql environment-
