@@ -1,5 +1,5 @@
 # library_management
-First Version of Library_Management using PHP and HTMl only.
+First Version of Library_Management using PHP and HTML only.
 Lacks all the security features.
 # STEPS TO USE IT:
 1. Clone this repo in your pc.
