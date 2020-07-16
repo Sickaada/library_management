@@ -30,7 +30,7 @@ Lacks all the security features.
   CREATE TABLE requested_books(
   id SERIAL,
   username VARCHAR(255),
-  namex VARCHAR(255)); '''
+  namex VARCHAR(255));
  3. Navigate to library_management/php and create "connection.php".
     In connection.php, include the following code -
     '''
