@@ -32,7 +32,7 @@ Lacks all the security features.
   username VARCHAR(255),
   namex VARCHAR(255));
   ```
- 3. Navigate to library_management/php and create "connection.php".
+3. Navigate to library_management/php and create "connection.php".
     In connection.php, include the following code -
     ```
     <?php 
@@ -46,7 +46,7 @@ Lacks all the security features.
     }
     
     ?>
-  4. Start your server now-
+ 4. Start your server now-
    cd into library_management in your terminal
    run ```php -S 127.0.0.1:6969```
    
